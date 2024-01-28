@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.topbar{
+    background-color: rgb(28 58 85);
+    /* padding-top: 40px; */
+    margin-top: 1px;
+}
+
+div input{
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    width : 178px;
+    padding-top: 21px;
+    text-align: center;
+}
+
+.topnav{
+    background-color: #fbdb0d;
+    /* float: left; */
+    
+    padding: 24px 10px 24px 14px;
+    
+}
+.topnav a{
+    position: relative;
+    /* -webkit-transition: all 0.25 ease-in-out; */
+    /* background-color:#fbdb0d; */
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 12px 12px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left !important;
+    
+}
+.dashboard{
+    background-color:#161661 ;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row ;
+    justify-content: center;
+}
+.a1{
+    margin: 16px;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    /* width: 200px; */
+    font-size: 23px;
+
+}
+.slideshow-image{
+    max-width: 100%;
+}
+.slideshow{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.runningText{
+    background-color: #fbdb0d;
+}
+.runningText a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.runcompany{
+    margin: 10px auto;
+    background-color: #161661;
+}
+.runcompany marquee a img{
+    width: 264px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
